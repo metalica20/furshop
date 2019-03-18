@@ -55,3 +55,5 @@ $route['translate_uri_dashes'] = FALSE;
 
 
 // user routes
+$route['dashboard']='admin/Dashboardcontroller';
+$route['admin']='admin/Logincontroller';
