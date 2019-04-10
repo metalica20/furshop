@@ -126,17 +126,17 @@
 
                           <?php foreach($v as $key => $value) {
 
-                            if($key=='photo'){
+                            if($key=='photo' || $key=='photo1' || $key=='photo2'){
 
 
-                              echo '<td><button type="button" class="btn btn-round btn-danger" data-toggle="modal" data-target="#myModal'.$v['id'].'"> change  Photo</button></td>';
+                              echo '<td><a href="'.$value.'" target="_blank"><button type="button" class="btn btn-round btn-primary"> view  Photo</button></a></td>';
                               ?>
                             <?php   }elseif($key=='category'){}else{ ?>
 
                               <td><?php echo $value;?></td>
                             <?php }}  ?>
                             <td>
-                              <a href="">Edit</a> /
+                              <a href="edit_items?id=<?php echo $v['id'] ?>">Edit</a> /
                               <a onclick="return confirm('Are you sure you want to delete?')" href="">Delete</a></td>
 
 

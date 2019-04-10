@@ -63,3 +63,4 @@ $route['about']='MainController/about';
 $route['admin']='admin/Logincontroller';
 $route['dashboard']='admin/Dashboardcontroller';
 $route['additem']='admin/Dashboardcontroller/additem';
+$route['edit_items']='admin/Dashboardcontroller/edit_items';

@@ -48,15 +48,15 @@ public function additem(){
     $files = $_FILES;
     $cpt = count($_FILES['photo']['name']);
     unset($_POST['submit']);
-    var_dump($_POST);
+    //var_dump($_POST);
     $insert_id=$this->Dash_model->insert_data('items_tbl',$_POST);
     //exit();
     //var_dump(sizeof($_FILES['photo']['name']));
     for($i=0;$i<$cpt;$i++){
 
       $file_name=$_FILES['photo']['name'][$i];
-      if($i==1){
-
+      if($i==0){
+        echo $i;
        $name=$insert_id.'_first';
 
       }elseif($i==2){
@@ -81,7 +81,7 @@ public function additem(){
 
       $config = array(
             'file_name'     => $name,
-            'allowed_types' => 'gif|jpg|png',
+            'allowed_types' => 'jpg',
             'max_size'      => 3000,
             'overwrite'     => TRUE,
             'upload_path'=>'./uploads/'
@@ -93,6 +93,8 @@ public function additem(){
                       var_dump($data_error);
                   } else {
                       $data = $this->upload->data();
+                      // var_dump($data);
+                      // exit();
 
                   }
 
@@ -100,10 +102,10 @@ public function additem(){
     $photo_path=array(
       'photo'=>base_url().'uploads/'.$insert_id.'_first.jpg',
       'photo1'=>base_url().'uploads/'.$insert_id.'_second.jpg',
-      'photo2'=>base_url().'uploads/'.$insert_id.'third.jpg',
+      'photo2'=>base_url().'uploads/'.$insert_id.'_third.jpg',
     );
     $update_photo_path=$this->Dash_model->update_data('items_tbl',$photo_path,$insert_id);
-    var_dump($update_photo_path);
+  //  var_dump($update_photo_path);
     $this->session->set_flashdata('msg','Items successfully Added');
     redirect('additem');
 
@@ -121,11 +123,95 @@ public function additem(){
   }
 
 
+}
 
 
+public function edit_items(){
+
+$id=$this->input->get('id');
+//echo $id;
+
+if(isset($_POST['submit'])){
+
+  $files = $_FILES;
+  // var_dump($_FILES['photo']['name']);
+  // exit();
+  $cpt = count($_FILES['photo']['name']);
+  unset($_POST['submit']);
+  //var_dump($_POST);
+  $insert_id=$this->Dash_model->update_data('items_tbl',$_POST,$id);
+  //exit();
+  //var_dump(sizeof($_FILES['photo']['name']));
+  for($i=0;$i<$cpt;$i++){
+
+    $file_name=$_FILES['photo']['name'][$i];
+    if($i==0){
+
+     $name=$id.'_first';
+
+    }elseif($i==2){
+
+     $name=$id.'_second';
+
+    }else{
+
+      $name=$id.'_third';
+
+    }
+
+    $this->load->library('upload');
+
+      $_FILES['photo']['name']= $files['photo']['name'][$i];
+      $_FILES['photo']['type']= $files['photo']['type'][$i];
+      $_FILES['photo']['tmp_name']= $files['photo']['tmp_name'][$i];
+      $_FILES['photo']['error']= $files['photo']['error'][$i];
+      $_FILES['photo']['size']= $files['photo']['size'][$i];
+
+
+
+    $config = array(
+          'file_name'     => $name,
+          'allowed_types' => 'jpg',
+          'max_size'      => 3000,
+          'overwrite'     => TRUE,
+          'upload_path'=>'./uploads/'
+    );
+
+    $this->upload->initialize($config);
+    if (!$this->upload->do_upload('photo')) {
+                    $data_error = array('msg' => $this->upload->display_errors());
+                    var_dump($data_error);
+                } else {
+                    $data = $this->upload->data();
+                    // var_dump($data);
+                    // exit();
+
+                }
+
+  }
+  // $photo_path=array(
+  //   'photo'=>base_url().'uploads/'.$insert_id.'_first.jpg',
+  //   'photo1'=>base_url().'uploads/'.$insert_id.'_second.jpg',
+  //   'photo2'=>base_url().'uploads/'.$insert_id.'_third.jpg',
+  // );
+  // $update_photo_path=$this->Dash_model->update_data('items_tbl',$photo_path,$insert_id);
+  //  var_dump($update_photo_path);
+  $this->session->set_flashdata('msg','Items successfully Added');
+  redirect('dashboard');
+
+
+}else{
+  $data_category=$this->Dash_model->get_data('categories_tbl');
+  $item_data=$this->Dash_model->get_specific_item('items_tbl',$id);
+  $this->body['data']=$data_category;
+  $this->body['item_data']=$item_data;
+  $this->load->view('admin/header');
+  $this->load->view('admin/edit_items',$this->body);
+  $this->load->view('admin/footer');
 
 }
 
+}
 
 
 }//end

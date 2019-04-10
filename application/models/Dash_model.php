@@ -71,4 +71,13 @@ public function update_data($table,$data,$id){
   $this->db->update($table,$data);
 }
 
+
+public function get_specific_item($table,$id){
+
+  $this->db->select('*');
+  $this->db->where('id',$id);
+  $query=$this->db->get($table);
+  return $query->row_array();
+}
+
 }//end
