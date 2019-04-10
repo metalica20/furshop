@@ -398,31 +398,31 @@ button.w3view-cart {
 }
 /*-- carousel-slider --*/
 .carousel .item{
-	background:-webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner2.jpg) no-repeat;
-	background:-moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner2.jpg) no-repeat;
-	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner2.jpg) no-repeat;
-	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner2.jpg) no-repeat;
+	background:-webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../../img/banner2.jpg) no-repeat;
+	background:-moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../../img/banner2.jpg) no-repeat;
+	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../../img/banner2.jpg) no-repeat;
+	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../../img/banner2.jpg) no-repeat;
 	background-size:cover;
 }
 .carousel .item.item2{
-	background:-webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner1.jpg) no-repeat;
-	background:-moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner1.jpg) no-repeat;
-	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner1.jpg) no-repeat;
-	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner1.jpg) no-repeat;
+	background:-webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../../img/banner1.jpg) no-repeat;
+	background:-moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../../img/banner1.jpg) no-repeat;
+	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../../img/banner1.jpg) no-repeat;
+	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../../img/banner1.jpg) no-repeat;
 	background-size:cover;
 }
 .carousel .item.item3{
-	background:-webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner3.jpg) no-repeat;
-	background:-moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner3.jpg) no-repeat;
-	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner3.jpg) no-repeat;
-	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner3.jpg) no-repeat;
+	background:-webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../../img/banner3.jpg) no-repeat;
+	background:-moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../../img/banner3.jpg) no-repeat;
+	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../../img/banner3.jpg) no-repeat;
+	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../../img/banner3.jpg) no-repeat;
 	background-size:cover;
 }
 .carousel .item.item4{
-	background:-webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner4.jpg) no-repeat;
-	background:-moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner4.jpg) no-repeat;
-	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner4.jpg) no-repeat;
-	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner4.jpg) no-repeat;
+	background:-webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../../img/banner4.jpg) no-repeat;
+	background:-moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../../img/banner4.jpg) no-repeat;
+	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../../img/banner4.jpg) no-repeat;
+	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../../img/banner4.jpg) no-repeat;
 	background-size:cover;
 }
 
@@ -536,7 +536,7 @@ button.w3view-cart {
     padding: .5em 2.5em .5em 1em;
     border: 1px solid #fe9126;
     margin: .35em 0 0;
-    background: url(../images/cart.html) no-repeat 116px 9px;
+    background: url(../../../img/cart.html) no-repeat 116px 9px;
 }
 #PPminicartk form {
     width: 590px !important;
@@ -824,7 +824,7 @@ button.w3view-cart {
   color: #c4c4c4;
 }
 .search-hotel form input[type="submit"]{
-  background: url(../images/search.png) no-repeat 13px 11px #1accfd;
+  background: url(../../../img/search.png) no-repeat 13px 11px #1accfd;
   width: 44px;
   height: 39px;
   border: none;
@@ -973,7 +973,7 @@ span.item_price {
     font-size: 15px;
 }
 .product-sec1.product-sec2{
-    background: url(../images/bg1.jpg)no-repeat 0px 0px;
+    background: url(../../../img/bg1.jpg)no-repeat 0px 0px;
     background-attachment: fixed;
     background-size: cover;
     -webkit-background-size: cover;
@@ -1118,11 +1118,11 @@ h3.tittle-w3l:after {
 }
 .nbs-flexisel-nav-left {
 	left: 0px;
-	background: url(../images/left.png) no-repeat -0px 0px;
+	background: url(../../../img/left.png) no-repeat -0px 0px;
 }
 .nbs-flexisel-nav-right {
 	right: 0px;
-	background: url(../images/right.png) no-repeat -0px 0px ;
+	background: url(../../../img/right.png) no-repeat -0px 0px ;
 }
 
 .featured-section {
@@ -1433,7 +1433,7 @@ p.footer-main span {
     height: 64px;
 	border: none;
 	text-indent: 100%;
-	background: url("../images/move-up.png") no-repeat 0px 0px;
+	background: url("../../../img/move-up.png") no-repeat 0px 0px;
 }
 #toTopHover {
     width: 64px;
@@ -1448,7 +1448,7 @@ p.footer-main span {
 /*-- //bottom-to-top --*/
 /* contact page */
 .page-head_agile_info_w3l {
-    background: url(../images/banner2.jpg) no-repeat;
+    background: url(../../../img/banner2.jpg) no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -2248,7 +2248,7 @@ img.zoom-img:hover{
 
 .starRating:not(old) > label {
     float: right;
-    background: url(../images/star1.png);
+    background: url(../../../img/star1.png);
     background-size: contain;
     margin-right: 2px;
 }
@@ -2258,7 +2258,7 @@ img.zoom-img:hover{
   display         : block;
   width           : 18px;
   height          : 18px;
-  background      : url(../images/star22.png);
+  background      : url(../../../img/star22.png);
   background-size : contain;
   opacity         : 0;
   transition      : opacity 0.2s linear;
@@ -2336,7 +2336,7 @@ td.invert-image a img {
 	position:relative;
 }
 .close1,.close2,.close3 {
-    background: url('../images/close_1.png') no-repeat 0px 0px;
+    background: url('../../../img/close_1.png') no-repeat 0px 0px;
     cursor: pointer;
     width: 28px;
     height: 28px;
@@ -2638,7 +2638,7 @@ input[type="radio"], input[type="checkbox"] {
     outline: none;
     font-size: 16px;
     margin-bottom: 0;
-    background: url(../images/arrow.png) no-repeat 96% center #ffffff;
+    background: url(../../../img/arrow.png) no-repeat 96% center #ffffff;
     background-size: 4% !important;
     -webkit-appearance: none;
 }

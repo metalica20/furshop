@@ -54,6 +54,12 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
-// user routes
-$route['dashboard']='admin/Dashboardcontroller';
+//user ROUTES
+$route['contact']='MainController/contact';
+$route['about']='MainController/about';
+
+
+// Admin routes
 $route['admin']='admin/Logincontroller';
+$route['dashboard']='admin/Dashboardcontroller';
+$route['additem']='admin/Dashboardcontroller/additem';

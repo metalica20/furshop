@@ -29,9 +29,9 @@
                 <div class="col-lg-6">
                   <form method=POST action="">
 
-                  <select class="form-control m-bot15" name="sub_cat_contact" id="sub_cat">
+                  <select class="form-control m-bot15" name="cat" id="sub_cat">
                     <option>Select Category</option>
-                    <?php foreach ($data as $list){ ?>
+                    <?php foreach ($data_cat as $list){ ?>
 
                       <option value="<?php echo $list['name']?>"><?php echo $list['name']?></option>
 
@@ -64,9 +64,9 @@
         <section class="panel">
           <section class="panel">
             <header class="panel-heading">
-              <b>asdadasd </b>
+              <b>Item List </b>
               <span class="tools pull-right">
-                <a href=""><button class="btn btn-danger" style="background-color: #1fb5ad;border-color: #1fb5ad;margin-top: -7px;"><i class="fa fa-plus"></i> upload</button></a>
+                <a href="additem"><button class="btn btn-danger" style="background-color: #1fb5ad;border-color: #1fb5ad;margin-top: -7px;"><i class="fa fa-plus"></i> upload</button></a>
               </span>
             </header>
             <div class="panel-body">
@@ -85,7 +85,7 @@
               ?>
               <?php  if($data == NULL){   ?>
 
-                <h4>No Categories</h4>
+                <h4><b>No Items To Show<b></h4>
 
               <?php }else{ ?>
                 <table class="table table-hover" id='tb1'>

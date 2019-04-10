@@ -20,6 +20,25 @@ class MainController extends CI_Controller {
 	 */
 	public function index()
 	{
+		$this->load->view('frontend/header');
 		$this->load->view('frontend/home');
+		$this->load->view('frontend/footer');
 	}
+
+public function contact(){
+
+	$this->load->view('frontend/header');
+	$this->load->view('frontend/contact');
+	$this->load->view('frontend/footer');
+
 }
+
+public function about(){
+
+	$this->load->view('frontend/header');
+	$this->load->view('frontend/about');
+	$this->load->view('frontend/footer');
+
+}
+
+}//end
