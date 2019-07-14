@@ -59,7 +59,7 @@ public function additem(){
         echo $i;
        $name=$insert_id.'_first';
 
-      }elseif($i==2){
+     }elseif($i==1){
 
        $name=$insert_id.'_second';
 
@@ -149,7 +149,7 @@ if(isset($_POST['submit'])){
 
      $name=$id.'_first';
 
-    }elseif($i==2){
+   }elseif($i==1){
 
      $name=$id.'_second';
 
