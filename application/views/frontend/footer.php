@@ -4,10 +4,10 @@
     <div class="col-xs-8 agile-leftmk">
       <h2>Get your Groceries delivered from local stores</h2>
       <p>Free Delivery on your first order!</p>
-      <form action="#" method="post">
+      <!-- <form action="#" method="post">
         <input type="email" placeholder="E-mail" name="email" required="">
         <input type="submit" value="Subscribe">
-      </form>
+      </form> -->
       <div class="newsform-w3l">
         <span class="fa fa-envelope-o" aria-hidden="true"></span>
       </div>
@@ -30,7 +30,7 @@
       beatae vitae dicta sunt explicabo.</p>
     <!-- //footer first section -->
     <!-- footer second section -->
-    <div class="w3l-grids-footer">
+    <!-- <div class="w3l-grids-footer">
       <div class="col-xs-4 offer-footer">
         <div class="col-xs-4 icon-fot">
           <span class="fa fa-map-marker" aria-hidden="true"></span>
@@ -59,12 +59,12 @@
         <div class="clearfix"></div>
       </div>
       <div class="clearfix"></div>
-    </div>
+    </div> -->
     <!-- //footer second section -->
     <!-- footer third section -->
     <div class="footer-info w3-agileits-info">
       <!-- footer categories -->
-      <div class="col-sm-5 address-right">
+      <!-- <div class="col-sm-5 address-right">
         <div class="col-xs-6 footer-grids">
           <h3>Categories</h3>
           <ul>
@@ -111,7 +111,7 @@
           </ul>
         </div>
         <div class="clearfix"></div>
-      </div>
+      </div> -->
       <!-- //footer categories -->
       <!-- quick links -->
       <div class="col-sm-5 address-right">
@@ -177,7 +177,7 @@
             </li>
           </ul>
         </div>
-        <div class="agileits_app-devices">
+        <!-- <div class="agileits_app-devices">
           <h5>Download the App</h5>
           <a href="#">
             <img src="<?php echo base_url()?>img/1.png" alt="">
@@ -186,7 +186,7 @@
             <img src="<?php echo base_url()?>img/2.png" alt="">
           </a>
           <div class="clearfix"> </div>
-        </div>
+        </div> -->
       </div>
       <!-- //social icons -->
       <div class="clearfix"></div>
@@ -194,7 +194,7 @@
     <!-- //footer third section -->
     <!-- footer fourth section (text) -->
     <div class="agile-sometext">
-      <div class="sub-some">
+      <!-- <div class="sub-some">
         <h5>Online Grocery Shopping</h5>
         <p>Order online. All your favourite products from the low price online supermarket for grocery home delivery in Delhi,
           Gurgaon, Bengaluru, Mumbai and other cities in India. Lowest prices guaranteed on Patanjali, Aashirvaad, Pampers, Maggi,
@@ -204,9 +204,9 @@
         <h5>Shop online with the best deals & offers</h5>
         <p>Now Get Upto 40% Off On Everyday Essential Products Shown On The Offer Page. The range includes Grocery, Personal Care,
           Baby Care, Pet Supplies, Healthcare and Other Daily Need Products. Discount May Vary From Product To Product.</p>
-      </div>
+      </div> -->
       <!-- brands -->
-      <div class="sub-some">
+      <!-- <div class="sub-some">
         <h5>Popular Brands</h5>
         <ul>
           <li>
@@ -312,10 +312,10 @@
             <a href="product2.html"> Lipton</a>
           </li>
         </ul>
-      </div>
+      </div> -->
       <!-- //brands -->
       <!-- payment -->
-      <div class="sub-some child-momu">
+      <!-- <div class="sub-some child-momu">
         <h5>Payment Method</h5>
         <ul>
           <li>
@@ -346,7 +346,7 @@
             <img src="<?php echo base_url()?>img/pay9.png" alt="">
           </li>
         </ul>
-      </div>
+      </div> -->
       <!-- //payment -->
     </div>
     <!-- //footer fourth section (text) -->

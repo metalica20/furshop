@@ -44,14 +44,13 @@ public function additem(){
 
   if(isset($_POST['submit'])){
 
-    //var_dump($_FILES);
+
     $files = $_FILES;
     $cpt = count($_FILES['photo']['name']);
     unset($_POST['submit']);
-    //var_dump($_POST);
+
     $insert_id=$this->Dash_model->insert_data('items_tbl',$_POST);
-    //exit();
-    //var_dump(sizeof($_FILES['photo']['name']));
+    
     for($i=0;$i<$cpt;$i++){
 
       $file_name=$_FILES['photo']['name'][$i];
@@ -93,8 +92,7 @@ public function additem(){
                       var_dump($data_error);
                   } else {
                       $data = $this->upload->data();
-                      // var_dump($data);
-                      // exit();
+
 
                   }
 
@@ -105,11 +103,11 @@ public function additem(){
       'photo2'=>base_url().'uploads/'.$insert_id.'_third.jpg',
     );
     $update_photo_path=$this->Dash_model->update_data('items_tbl',$photo_path,$insert_id);
-  //  var_dump($update_photo_path);
+
     $this->session->set_flashdata('msg','Items successfully Added');
     redirect('additem');
 
-    //  $img_upload=$this->Dashboardcontroller->do_upload($file_name,$insert);
+
 
 
   }else{
@@ -129,19 +127,17 @@ public function additem(){
 public function edit_items(){
 
 $id=$this->input->get('id');
-//echo $id;
+
 
 if(isset($_POST['submit'])){
 
   $files = $_FILES;
-  // var_dump($_FILES['photo']['name']);
-  // exit();
+
   $cpt = count($_FILES['photo']['name']);
   unset($_POST['submit']);
-  //var_dump($_POST);
+
   $insert_id=$this->Dash_model->update_data('items_tbl',$_POST,$id);
-  //exit();
-  //var_dump(sizeof($_FILES['photo']['name']));
+
   for($i=0;$i<$cpt;$i++){
 
     $file_name=$_FILES['photo']['name'][$i];
@@ -183,19 +179,11 @@ if(isset($_POST['submit'])){
                     var_dump($data_error);
                 } else {
                     $data = $this->upload->data();
-                    // var_dump($data);
-                    // exit();
 
                 }
 
   }
-  // $photo_path=array(
-  //   'photo'=>base_url().'uploads/'.$insert_id.'_first.jpg',
-  //   'photo1'=>base_url().'uploads/'.$insert_id.'_second.jpg',
-  //   'photo2'=>base_url().'uploads/'.$insert_id.'_third.jpg',
-  // );
-  // $update_photo_path=$this->Dash_model->update_data('items_tbl',$photo_path,$insert_id);
-  //  var_dump($update_photo_path);
+
   $this->session->set_flashdata('msg','Items successfully Added');
   redirect('dashboard');
 

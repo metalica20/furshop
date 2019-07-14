@@ -118,108 +118,9 @@
                 <li>
                     <a class="active" href="dashboard">
                         <i class="fa fa-dashboard"></i>
-                        <span>Dashboard</span>
+                        <span>Items Management</span>
                     </a>
                 </li>
-                <li class="sub-menu">
-                    <a href="javascript:;">
-                        <i class="fa fa-laptop"></i>
-                        <span>Home Page</span>
-                    </a>
-                    <ul class="sub">
-
-
-                        <li><a href="<?php echo base_url()?>view_proj">Project Partners</a></li>
-                        <li><a href="<?php echo base_url()?>emergency_contact">Emergency Contact</a></li>
-                        <li><a href="<?php echo base_url()?>background">Background Image</a></li>
-                    </ul>
-                </li>
-
-
-                <li class="sub-menu">
-                    <a href="javascript:;">
-                        <i class="fa fa-laptop"></i>
-                        <span>Categorie Management</span>
-                    </a>
-                    <ul class="sub">
-
-                        <li><a href="<?php echo base_url();?>categories_tbl">Categories</a></li>
-
-                    </ul>
-                </li>
-
-
-
-
-                <li class="sub-menu">
-                    <a href="javascript:;">
-                        <i class="fa fa-th"></i>
-                        <span>Emergency Contact Management</span>
-                    </a>
-                    <ul class="sub">
-
-                        <li><a href="<?php echo base_url();?>create_categories_tbl">Create Database Tables</a></li>
-                        <!-- <li><a href="<?php echo base_url();?>view_cat_tables">View Categories Data Tables</a></li> -->
-
-                    </ul>
-                </li>
-
-
-                <li class="sub-menu">
-                    <a href="javascript:;">
-                        <i class="fa fa-th"></i>
-                        <span>Report Management</span>
-                    </a>
-                    <ul class="sub">
-
-                        <!-- <li><a href="<?php echo base_url();?>create_categories_tbl">Create Database Tables</a></li>
-                        <li><a href="<?php echo base_url();?>view_cat_tables">View Categories Data Tables</a></li> -->
-
-                    </ul>
-                </li>
-
-
-                  <li class="sub-menu">
-                    <a href="javascript:;">
-                        <i class="fa fa-th"></i>
-                        <span>Publication Management</span>
-                    </a>
-                    <ul class="sub">
-
-                        <!-- <li><a href="<?php echo base_url();?>create_categories_tbl">Create Database Tables</a></li>
-                        <li><a href="<?php echo base_url();?>view_cat_tables">View Categories Data Tables</a></li> -->
-
-                    </ul>
-                </li>
-
-
-                <li class="sub-menu">
-                    <a href="javascript:;">
-                        <i class="fa fa-th"></i>
-                        <span>Datasets</span>
-                    </a>
-                    <ul class="sub">
-
-                        <!-- <li><a href="<?php echo base_url();?>create_categories_tbl">Create Database Tables</a></li>
-                        <li><a href="<?php echo base_url();?>view_cat_tables">View Categories Data Tables</a></li> -->
-
-                    </ul>
-                </li>
-
-                <li class="sub-menu">
-                    <a href="javascript:;">
-                        <i class="fa fa-th"></i>
-                        <span>Municipal Map</span>
-                    </a>
-                    <ul class="sub">
-
-                        <!-- <li><a href="<?php echo base_url();?>create_categories_tbl">Create Database Tables</a></li>
-                        <li><a href="<?php echo base_url();?>view_cat_tables">View Categories Data Tables</a></li> -->
-
-                    </ul>
-                </li>
-
-
 
                 <li class="sub-menu">
                     <a href="javascript:;">
@@ -228,34 +129,13 @@
                     </a>
                     <ul class="sub">
 
-                        <!-- <li><a href="<?php echo base_url();?>create_categories_tbl">Create Database Tables</a></li>
-                        <li><a href="<?php echo base_url();?>view_cat_tables">View Categories Data Tables</a></li> -->
+                         <li><a href="<?php echo base_url();?>create_categories_tbl">Contacts Management</a></li>
+                        <!-- <li><a href="<?php echo base_url();?>view_cat_tables">View Categories Data Tables</a></li> -->
 
                     </ul>
                 </li>
 
-                <li class="sub-menu">
-                    <a href="javascript:;">
-                        <i class=" fa fa-bar-chart-o"></i>
-                        <span>Layers</span>
-                    </a>
-                    <ul class="sub">
-                        <li><a href="<?php echo base_url();?>layers_view">Layers</a></li>
-                        <!-- <li><a href="chartjs.html">Chartjs</a></li>
-                        <li><a href="flot_chart.html">Flot Charts</a></li>
-                        <li><a href="c3_chart.html">C3 Chart</a></li> -->
-                    </ul>
-                </li>
-                <li class="sub-menu">
-                    <a href="javascript:;">
-                        <i class=" fa fa-bar-chart-o"></i>
-                        <span>Maps</span>
-                    </a>
-                    <ul class="sub">
-                        <li><a href="google_map.html">Google Map</a></li>
-                        <li><a href="vector_map.html">Vector Map</a></li>
-                    </ul>
-                </li>
+
 
 
             </ul>

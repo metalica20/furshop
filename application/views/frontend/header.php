@@ -87,9 +87,9 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 </script>
 <body>
 	<!-- top-header -->
-	<div class="header-most-top">
+	<!-- <div class="header-most-top">
 		<p>Grocery Offer Zone Top Deals & Discounts</p>
-	</div>
+	</div> -->
 	<!-- //top-header -->
 	<!-- header-bot-->
 	<div class="header-bot">
@@ -107,7 +107,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 			<!-- header-bot -->
 			<div class="col-md-8 header">
 				<!-- header lists -->
-				<ul>
+				<!-- <ul>
 					<li>
 						<a class="play-icon popup-with-zoom-anim" href="#small-dialog1">
 							<span class="fa fa-map-marker" aria-hidden="true"></span> Shop Locator</a>
@@ -127,17 +127,17 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 						<a href="#" data-toggle="modal" data-target="#myModal2">
 							<span class="fa fa-pencil-square-o" aria-hidden="true"></span> Sign Up </a>
 					</li>
-				</ul>
+				</ul> -->
 				<!-- //header lists -->
 				<!-- search -->
-				<div class="agileits_search">
+				<!-- <div class="agileits_search">
 					<form action="#" method="post">
 						<input name="Search" type="search" placeholder="How can we help you today?" required="">
 						<button type="submit" class="btn btn-default" aria-label="Left Align">
 							<span class="fa fa-search" aria-hidden="true"> </span>
 						</button>
 					</form>
-				</div>
+				</div> -->
 				<!-- //search -->
 				<!-- cart details -->
 				<div class="top_nav_right">
@@ -292,7 +292,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 								<li class="">
 									<a class="nav-stylehead" href="about">About Us</a>
 								</li>
-								<li class="dropdown">
+								<!-- <li class="dropdown">
 									<a href="#" class="dropdown-toggle nav-stylehead" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kitchen
 										<span class="caret"></span>
 									</a>
@@ -354,8 +354,8 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 											<div class="clearfix"></div>
 										</div>
 									</ul>
-								</li>
-								<li class="dropdown">
+								</li> -->
+								<!-- <li class="dropdown">
 									<a href="#" class="dropdown-toggle nav-stylehead" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Household
 										<span class="caret"></span>
 									</a>
@@ -414,8 +414,8 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 											<div class="clearfix"></div>
 										</div>
 									</ul>
-								</li>
-								<li class="">
+								</li> -->
+								<!-- <li class="">
 									<a class="nav-stylehead" href="faqs.html">Faqs</a>
 								</li>
 								<li class="dropdown">
@@ -430,7 +430,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 											<a href="typography.html">Typography</a>
 										</li>
 									</ul>
-								</li>
+								</li> -->
 								<li class="">
 									<a class="nav-stylehead" href="contact">Contact</a>
 								</li>
